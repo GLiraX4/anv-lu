@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversário!</title>
+  <link rel="stylesheet" href="csslu.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Feliz Aniversário, [Nome da Pessoa]!</h1>
+    <img src="https://example.com/imagem-bolo.jpg" alt="Bolo de Aniversário" class="bolo-img">
+    <p>Hoje é o seu dia especial, e quero te desejar toda a felicidade do mundo. Que seus sonhos se realizem e que você tenha um ano incrível pela frente!</p>
+
+    <div class="mensagem">
+      <h2>Mensagem Especial</h2>
+      <p>Você é uma pessoa incrível e merece tudo de bom! Que este novo ano traga muitos momentos de alegria, amor e realizações. Parabéns!</p>
+    </div>
+
+    <button onclick="playMusic()">Toque uma Música Especial</button>
+    <audio id="birthdayMusic">
+      <source src="https://example.com/music.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <footer>
+    <p>Com carinho, [Seu Nome]</p>
+  </footer>
+
+  <script>
+    function playMusic() {
+      var music = document.getElementById('birthdayMusic');
+      music.play();
+    }
+  </script>
+</body>
+</html>
