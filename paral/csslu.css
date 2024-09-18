@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7eaea;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 3em;
+  color: #e91e63;
+}
+
+.bolo-img {
+  width: 100%;
+  max-width: 300px;
+  margin: 20px auto;
+  display: block;
+  border-radius: 50%;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+
+.mensagem {
+  margin-top: 30px;
+}
+
+.mensagem h2 {
+  font-size: 2em;
+  color: #ff9800;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+footer {
+  margin-top: 50px;
+  font-size: 1.2em;
+  color: #777;
+}
+
+footer p {
+  margin-top: 10px;
+}
