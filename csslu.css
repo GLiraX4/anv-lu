@@ -102,4 +102,20 @@ footer {
 
 footer p {
   margin-top: 10px;
+  
+}
+.botao-voltar {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #080808; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  text-decoration: none; /* Remove sublinhado padrão */
+  border-radius: 5px; /* Borda arredondada */
+  transition: background-color 0.3s; /* Transição suave de cor de fundo */
+  font-family: "Margarine", sans-serif;
+}
+
+.botao-voltar:hover {
+  background-color: #333; /* Cor de fundo alterada ao passar o mouse */
+  color:#6145ff;
 }
