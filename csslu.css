@@ -4,6 +4,26 @@
   box-sizing: border-box;
 }
 
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 0.8em;
+  border-radius: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000; /* Configura a cor do texto do menu de baixo */
+  padding: 0.5em 1em;
+  border-radius: 5px; /* Faz borda e arredonda o botão */
+  transition: background-color 0.3s;
+  position: relative; /* Adiciona posição relativa para o posicionamento do submenu */
+}
+
+nav a:hover {
+  color: #000000; /* Configura a cor do texto quando passa o mouse em cima do texto (menu de baixo) */
+}
+
 body {
   font-family: 'Arial', sans-serif;
   background: linear-gradient(180deg, #6a11cb, #ffffff);
@@ -11,6 +31,14 @@ body {
   text-align: center;
   padding: 20px;
 }
+
+video {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+}
+
 
 .container {
   max-width: 800px;
@@ -51,8 +79,7 @@ p {
 }
 
 button {
-  background-color: #4caf50;
-  color: white;
+  background-color: #7f45a0;
   padding: 15px 30px;
   border: none;
   border-radius: 5px;
@@ -63,7 +90,7 @@ button {
 }
 
 button:hover {
-  background-color: #7f45a0;
+  background-color: #3caa2d;
   color: #ffffff
 }
 
