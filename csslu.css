@@ -26,12 +26,12 @@ h1 {
   color: #e91e63;
 }
 
-.bolo-img {
+.luhegl {
   width: 100%;
-  max-width: 300px;
+  max-width: 200px; /* Define o tamanho máximo da imagem */
   margin: 20px auto;
   display: block;
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 p {
