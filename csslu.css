@@ -38,6 +38,7 @@ p {
   font-size: 1.2em;
   margin-top: 10px;
   line-height: 1.5;
+  color: #000000;
 }
 
 .mensagem {
@@ -58,11 +59,12 @@ button {
   cursor: pointer;
   margin-top: 20px;
   font-size: 1em;
+  transition: background-color 0.3s; /* Transição suave de cor de fundo */
 }
 
 button:hover {
   background-color: #7f45a0;
-  
+  color: #ffffff
 }
 
 footer {
